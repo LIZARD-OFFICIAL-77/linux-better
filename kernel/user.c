@@ -253,7 +253,7 @@ static int __init uid_cache_init(void)
 		INIT_HLIST_HEAD(uidhash_table + n);
 
 	if (user_epoll_alloc(&root_user))
-		panic("root_user epoll percpu counter alloc failed");
+		panic("OwO root_user something epoll percpu something failed qwq");
 
 	/* Insert the root user immediately (init already runs as root) */
 	spin_lock_irq(&uidhash_lock);
