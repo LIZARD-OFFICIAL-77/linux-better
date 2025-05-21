@@ -213,7 +213,7 @@ void watchdog_hardlockup_check(unsigned int cpu, struct pt_regs *regs)
 		}
 
 		if (hardlockup_panic)
-			nmi_panic(regs, "Hard LOCKUP");
+			nmi_panic(regs, "okay seriously i have no fucking clue as to what to put here so have a nice smiley face :3");
 
 		per_cpu(watchdog_hardlockup_warned, cpu) = true;
 	} else {
